@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // The API url is determined by environment configuration, falling back to localhost:8000
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://redledgerweb.onrender.com';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
