@@ -1,0 +1,12 @@
+# Version control ignore rules
+node_modules/
+dist/
+build/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+postgres_data/
+.DS_Store
